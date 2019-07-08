@@ -1,0 +1,114 @@
+
+body{
+    background-color:rgb(167, 6, 6);
+}
+
+li{
+    font-size: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    margin: 5%
+}
+/* button{
+    position: absolute;
+} */
+a{
+    color: white;
+}
+#dd{
+    color: blue;
+    font-size: 0.5cm;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    color: white;
+    
+}
+#pp{color: white;
+    font-size: 200%;
+    font-family: Mali;
+    }
+a:hover{
+    color:red;
+}   
+li{
+    display: inline-block;
+    margin: 50px;    
+}
+#click{
+    width:400px;
+    height:200px;
+    max-width:400px;
+    max-height:200px;
+}
+#firstdiv{
+    background-image: url("../viewmore1.PNG");
+}
+#seconddiv{
+    background-image: url("../view more 2.PNG");
+}
+#thirddiv{
+    background-image: url("../view more 3.PNG");
+} 
+#fourthdiv{
+    background-image: url("viewmore4.PNG");
+}
+
+#fifthdiv{
+    background-image: url("viewmore5.PNG");
+}
+#sixthdiv{
+    background-image: url("viewmore6.PNG");
+}
+#seventhdiv{
+    background-image: url("viewmore7.PNG");
+}
+#eighthdiv{
+    background-image: url("viewmore8.PNG");
+} 
+#ninethdiv{
+    background-image: url("viewmore9.PNG");
+}  
+    
+.divet{
+    /* display:inline-block; */
+    /* margin-left: 20px; */
+    margin-bottom: 20px;
+    margin-top: 20px;
+    /* position: relative;
+    background-size: cover; */
+    background-repeat: no-repeat;
+    /* width: 200px; */
+    height: 200px ;
+} 
+.btn1{
+    display: none;
+    margin-left: 65px; 
+    height: 30px;
+    /* width: 100px; */
+    margin-top: 85px;
+    /* position: absolute; */
+}                       
+.finn{
+    width: 1512px;
+    height: 700px;
+}
+.lestrois{
+    margin-bottom:20px;
+    margin-left: 500px;
+}
+.navbar{
+    height: 102px;
+}
+.mike{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+
+
+
+
+
+

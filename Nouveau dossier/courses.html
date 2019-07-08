@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Courses</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+            <nav class="navbar navbar-inverse">
+                    <div class="container-fluid">
+                      <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span> 
+                        </button>
+                        <a class="navbar-brand mike" href="index.html">GoMyCode</a>
+                      </div>
+                      <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                          <li class="active mike"><a href="index.html">Home</a></li>
+                          <li><a class="mike" href="courses.html">Courses</a></li>
+                          <li><a class="mike" href="contact.html">Contacts</a></li> 
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                          <li  class="mike"><a href="contact.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                          <li class="mike"><a href="index.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+
+        <center>
+        <b class="lestrois">Feed back</b> 
+        <br>
+       
+       <div class="lestrois">
+       <button type="button" id="bold" /*onclick="bold()"*/ class="btn btn-danger">B</button>
+         <button type="button"  id="italic"/*onclick="italic()"*/ class="btn btn-danger">I</button>
+      <button type="button" id="underlined"/*onclick="under()"*/ class="btn btn-danger">Underlined</button>       
+    </div>
+      <div class="form-group">
+        <select id="select" /*onclick="px()"*/ class="form-control" id="sel1">
+          <option>20px</option>
+          <option>30px</option>
+          <option>40px</option>
+        </select> 
+        <br>
+        <div class="form-group">
+            <select id="hp" onclick="px1()" class="form-control" id="sel1">
+              <option /*value="Arial"*/>Arial</option>
+              <option /*value="Verdana"*/>Verdana</option>
+              <option /*value="Geneva"*/ >Geneva</option>
+            </select>
+        <br>
+            <form>
+                <div class="form-group">   
+                        <input id="click" class="form-control input-lg" id="inputlg" type="text">
+                      </div>
+        </form> 
+    </center> 
+</body>
+<script src="js/main.js"></script>
+</html>

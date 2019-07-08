@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>contact</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+  
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span> 
+            </button>
+            <a class="navbar-brand mike" href="index.html">GoMyCode</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li class="active mike"><a href="index.html">Home</a></li>
+              <li><a class="mike" href="courses.html">Courses</a></li>
+              <li><a class="active mike" href="contact.html">Contacts</a></li> 
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li  class="mike"><a href="contact.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+              <li class="mike"><a href="index.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+<center>
+    <form id="contactform" class="form-horizontal" action="/action_page.php">
+      <div class="col-sm-12"></div>
+        <div class="form-group">
+          <label class="control-label col-sm-2 " for="email">Email:</label>
+          <div class="col-sm-10">
+            <input id="email" type="email" class="form-control" placeholder="Enter email">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="pwd">Password:</label>
+          <div class="col-sm-10"> 
+            <input  type="password" class="form-control" id="password" placeholder="Enter password">
+          </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-sm-2" for="pwd">phone number:</label>
+            <div class="col-sm-10"> 
+              <input  type="number" class="form-control" id="tel" placeholder="Enter phone number">
+            </div>
+          </div>
+          <div class="form-group">
+        <label class="control-label col-sm-2" for="pwd">TRACK :</label>
+        <div class="col-sm-10">    
+        <select id="track" class="form-control">
+              <option>Web</option>
+              <option>Game</option>
+              <option>AI</option>
+             </select>
+          </div>
+        </div>
+        <div class="form-group"> 
+            <button  value="submit" type="submit" class="btn btn-success">Submit</button>
+        </div>
+      </form>
+
+</body>
+<script src="https://www.gstatic.com/firebasejs/6.1.0/firebase.js"></script>
+<script src="js/main.js"></script>
+</html>
